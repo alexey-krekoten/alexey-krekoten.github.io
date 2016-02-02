@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,500italic,100,300italic,300,100italic,400italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Neucha&subset=latin,cyrillic);
+body {
+  min-width: 360px;
+  font-family: "Neucha", cursive;
+  color: #E7E7E7; }
+  body header {
+    background: #404040; }
+    body header .row .position {
+      margin-top: 27px;
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      color: #E7E7E7;
+      display: block; }
+    body header .row .logo {
+      display: block; }
+    body header .row .photo {
+      width: 80%;
+      margin: 20px 0px;
+      display: inline-block;
+      border-radius: 50%;
+      border: 4px solid #E92526; }
+    body header .row .about {
+      display: inline-block;
+      padding-top: 40px; }
+  body .contact {
+    font-family: "Roboto", sans-serif;
+    background: #E7E7E7;
+    color: #E92526;
+    font-size: 20px; }
+    body .contact ul li {
+      color: #404040;
+      list-style: none;
+      display: block; }
+      body .contact ul li i {
+        font-size: 20px;
+        margin-right: 20px;
+        color: #E92526; }
+      body .contact ul li a {
+        color: #404040; }
+        body .contact ul li a:hover {
+          text-shadow: 0px 0px 10px #E92526;
+          color: #404040; }
+  body .contactme {
+    font-weight: 600;
+    padding: 0px 20px;
+    margin: 20px 0px;
+    background: #404040; }
+    body .contactme i {
+      margin-left: 10px; }
+  body .profile {
+    font-weight: 600;
+    padding: 0px 20px;
+    margin: 20px 0px;
+    background: #404040; }
+    body .profile i {
+      margin-left: 10px; }
+  body .skills {
+    font-weight: 600;
+    padding: 0px 20px;
+    margin: 20px 0px;
+    background: #404040; }
+    body .skills i {
+      margin-left: 10px; }
+
+/*# sourceMappingURL=style.css.map */
