@@ -193,4 +193,24 @@ body .desire .like img {
   height: 25px;
 }
 
+footer {
+  background: #404040;
+}
+footer .copy {
+  display: block;
+  margin-top: 150px;
+}
+footer .read {
+  display: block;
+  margin: 30px 0px;
+  color: #E7E7E7;
+  font-size: 20px;
+}
+footer .read p {
+  font-size: 15px;
+}
+footer svg {
+  margin-top: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */

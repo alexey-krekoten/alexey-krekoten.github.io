@@ -209,6 +209,7 @@ progress::-moz-progress-bar {
 				}
 				.like{
 					img{
+
 						margin-right:10px;
 						width:25px;
 						height:25px;
@@ -216,4 +217,25 @@ progress::-moz-progress-bar {
 				}
 			}
 	}
+
+footer{
+	background:$dark-color;
+.copy{
+		display:block;
+		margin-top:150px;
+	}
+	.read{
+		display:block;
+		margin:30px 0px;
+		color:$gray-color;
+		font-size:20px;
+		p{
+			font-size: 15px;
+		}
+	}
+	svg{
+		margin-top:15px;
+	}
+}
+
 
