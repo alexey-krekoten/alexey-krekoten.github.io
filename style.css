@@ -3,124 +3,194 @@
 body {
   min-width: 360px;
   font-family: "Neucha", cursive;
-  color: #E7E7E7; }
-  body header {
-    background: #404040; }
-    body header .row .position {
-      color: #E92526;
-      font-family: "Neucha", cursive;
-      font-size: 22px;
-      font-weight: 400;
-      display: block; }
-      body header .row .position p {
-        margin-top: 20px;
-        color: #E7E7E7; }
-    body header .row .logo {
-      display: block; }
-    body header .row .photo {
-      width: 100%;
-      margin: 20px 0px;
-      display: inline-block;
-      border-radius: 50%;
-      border: 1px solid #E92526; }
-    body header .row .circlelife {
-      padding: 10px 10px; }
-    body header .row .about {
-      display: inline-block;
-      padding-top: 40px; }
-  body .contact {
-    font-family: "Roboto", sans-serif;
-    background: #E7E7E7;
-    color: #E92526;
-    font-size: 20px; }
-    body .contact ul li {
-      color: #404040;
-      list-style: none;
-      display: block; }
-      body .contact ul li i {
-        font-size: 20px;
-        margin-right: 20px;
-        color: #E92526; }
-      body .contact ul li a {
-        color: #404040; }
-        body .contact ul li a:hover {
-          text-shadow: 0px 0px 10px #E92526;
-          color: #404040; }
-  body .contactme {
-    font-size: 25px;
-    font-weight: 600;
-    padding: 0px 20px;
-    margin: 20px 0px;
-    background: #404040;
-    border-radius: 20px; }
-    body .contactme i {
-      margin-left: 10px; }
-  body .profile {
-    border-radius: 20px;
-    font-size: 25px;
-    font-weight: 600;
-    padding: 0px 20px;
-    margin: 20px 0px;
-    background: #404040; }
-    body .profile i {
-      margin-left: 10px; }
-  body .education {
-    border-radius: 20px;
-    font-size: 25px;
-    font-weight: 600;
-    padding: 0px 20px;
-    margin: 20px 0px;
-    background: #404040; }
-    body .education i {
-      margin-left: 10px; }
-  body ul li p {
-    font-size: 15px; }
-  body .work {
-    background: #404040; }
-    body .work h3 {
-      background: #E7E7E7;
-      border-radius: 20px;
-      font-weight: 600;
-      color: #E92526;
-      font-family: "Roboto", sans-serif;
-      font-size: 25px;
-      font-weight: 600;
-      padding: 0px 20px;
-      margin: 20px 0px; }
-      body .work h3 i {
-        padding-left: 10px; }
-    body .work ul {
-      list-style: none; }
-      body .work ul li {
-        font-family: "Roboto", sans-serif;
-        font-size: 20px; }
-        body .work ul li i {
-          color: #E92526;
-          padding-right: 20px; }
-        body .work ul li p {
-          font-size: 15px; }
-  body .desire {
-    background: #E7E7E7; }
-    body .desire h3 {
-      background: #404040;
-      border-radius: 20px;
-      font-weight: 600;
-      color: #E92526;
-      font-family: "Roboto", sans-serif;
-      font-size: 25px;
-      font-weight: 600;
-      padding: 0px 20px;
-      margin: 20px 0px; }
-      body .desire h3 i {
-        padding-left: 10px; }
-    body .desire ul {
-      list-style: none; }
-      body .desire ul li {
-        font-family: "Roboto", sans-serif;
-        color: #404040;
-        font-size: 20px; }
-        body .desire ul li i {
-          color: #E92526;
-          padding-right: 20px; }
+  color: #E7E7E7;
+}
+body header {
+  background: #404040;
+}
+body header .row .position {
+  color: #E92526;
+  font-family: "Neucha", cursive;
+  font-size: 22px;
+  font-weight: 400;
+  display: block;
+}
+body header .row .position p {
+  margin-top: 20px;
+  color: #E7E7E7;
+}
+body header .row .logo {
+  display: block;
+}
+body header .row .photo {
+  width: 100%;
+  margin: 20px 0px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid #E92526;
+}
+body header .row .circlelife {
+  padding: 10px 10px;
+}
+body header .row .about {
+  display: inline-block;
+  padding-top: 40px;
+}
+body .contact {
+  font-family: "Roboto", sans-serif;
+  background: #E7E7E7;
+  color: #E92526;
+  font-size: 20px;
+}
+body .contact ul li {
+  color: #404040;
+  list-style: none;
+  display: block;
+}
+body .contact ul li i {
+  font-size: 20px;
+  margin-right: 20px;
+  color: #E92526;
+}
+body .contact ul li a {
+  color: #404040;
+}
+body .contact ul li a:hover {
+  text-shadow: 0px 0px 10px #E92526;
+  color: #404040;
+}
+body .contactme {
+  font-size: 25px;
+  font-weight: 600;
+  padding: 0px 20px;
+  margin: 20px 0px;
+  background: #404040;
+  border-radius: 20px;
+}
+body .contactme i {
+  margin-left: 10px;
+}
+body .profile {
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 0px 20px;
+  margin: 20px 0px;
+  background: #404040;
+}
+body .profile i {
+  margin-left: 10px;
+}
+body .education {
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 0px 20px;
+  margin: 20px 0px;
+  background: #404040;
+}
+body .education i {
+  margin-left: 10px;
+}
+body ul li p {
+  font-size: 15px;
+}
+body .work {
+  background: #404040;
+}
+body .work h3 {
+  background: #E7E7E7;
+  border-radius: 20px;
+  font-weight: 600;
+  color: #E92526;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 0px 20px;
+  margin: 20px 0px;
+}
+body .work h3 i {
+  padding-left: 10px;
+}
+body .work ul {
+  list-style: none;
+}
+body .work ul li {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+body .work ul li img {
+  margin-right: 20px;
+  margin-bottom: 15px;
+  width: 30px;
+  height: 30px;
+}
+body .work ul li i {
+  font-size: 25px;
+  color: #E7E7E7;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+body .work ul li progress {
+  background-color: #E7E7E7;
+  border: 0;
+  height: 18px;
+  border-radius: 9px;
+}
+body .work ul li progress::-webkit-progress-bar {
+  background-color: #E7E7E7;
+  border: 0;
+  height: 18px;
+  border-radius: 9px;
+}
+body .work ul li progress::-webkit-progress-value {
+  background-color: #E92526;
+  border: 0;
+  height: 18px;
+  border-radius: 9px;
+}
+body .work ul li progress::-moz-progress-bar {
+  background-color: #E7E7E7;
+  border: 0;
+  height: 18px;
+  border-radius: 9px;
+}
+body .work ul li p {
+  font-size: 15px;
+}
+body .desire {
+  background: #E7E7E7;
+}
+body .desire h3 {
+  background: #404040;
+  border-radius: 20px;
+  font-weight: 600;
+  color: #E92526;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 0px 20px;
+  margin: 20px 0px;
+}
+body .desire h3 i {
+  padding-left: 10px;
+}
+body .desire ul {
+  list-style: none;
+}
+body .desire ul li {
+  font-family: "Roboto", sans-serif;
+  color: #404040;
+  font-size: 20px;
+}
+body .desire ul li i {
+  color: #E92526;
+  padding-right: 20px;
+}
+body .desire .like img {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
 
 /*# sourceMappingURL=style.css.map */

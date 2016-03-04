@@ -11,6 +11,7 @@ $main-font: 'Neucha', cursive;
 $sec-font: 'Roboto', sans-serif;
 
 body{
+	
 	min-width: 360px;
 	font-family: $main-font;
 	color: $gray-color;
@@ -135,14 +136,45 @@ body{
 		li{
 			font-family: $sec-font;
 			font-size: 20px;
-			i{
-
-				color: $red-color;
-				padding-right:20px;
+			img{
+				margin-right:20px;
+				margin-bottom:15px;
+				width:30px;
+				height:30px;
 			}
+			i{
+				font-size: 25px;	
+				color: $gray-color;
+				padding-right:20px;
+				margin-bottom:20px;
+			}
+progress {
+  background-color: $gray-color;
+  border: 0;
+  height: 18px;
+  border-radius: 9px;
+}
+progress::-webkit-progress-bar {
+  background-color: $gray-color;
+  border: 0;
+  height: 18px;
+  border-radius: 9px;
+}
+progress::-webkit-progress-value {
+  background-color: $red-color;
+  border: 0;
+  height: 18px;
+  border-radius: 9px;
+}
+progress::-moz-progress-bar {
+  background-color: $gray-color;
+  border: 0;
+  height: 18px;
+  border-radius: 9px;
+}
 			p{
 				font-size:15px;
-			}
+			}			
 		}
 	}
 }
@@ -172,6 +204,14 @@ body{
 							color: $red-color;
 							padding-right:20px;
 						}
+						
+					}
+				}
+				.like{
+					img{
+						margin-right:10px;
+						width:25px;
+						height:25px;
 					}
 				}
 			}
